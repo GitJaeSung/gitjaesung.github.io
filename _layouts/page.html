@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="article">
+  
+  <div class="container">
+    
+    {% if page.title != null and page.page_type == "post" %}
+    <p class="page-header">{{ page.title }}</p>
+    {% endif %}
+    
+    <div class="page-content">
+      
+      {{ content }}
+    
+    </div>
+  
+  </div>
+
+</article>

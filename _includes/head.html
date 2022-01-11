@@ -1,0 +1,26 @@
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Title -->
+  <title>{% if page.title != null %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  
+  <!-- Og tag -->
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:type" content="{{ site.og_type }}">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  
+  <!-- Style -->
+  <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon/favicon.ico' | relative_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | relative_url }}">
+  
+  <!-- Script -->
+  <script type="text/javascript" src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  {% include google-analytics.html %}
+
+</head>

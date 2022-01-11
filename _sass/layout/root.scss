@@ -1,0 +1,48 @@
+/* Root */
+@charset "UTF-8";
+:root {
+  --bd-font-size: 1rem;
+  --color-black: #171516;
+  --color-white: #fbf9fa;
+  --color-grey: #2a2829;
+  --color-blue: #597dcb;
+  --color-tab-hover: #6b6669;
+  --color-paginator: #797778;
+  --div-line: #dedcdd;
+  --footer-line: #e9e7e8;
+  --footer-color: #6c6a6b;
+} /* Color */
+* {
+  box-sizing: border-box;
+  &::before {
+    box-sizing: border-box;
+  }
+  &::after {
+    box-sizing: border-box;
+  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  } /* Hieedn scrollbar */
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+ul, li {
+  list-style: none;
+  padding: 0;
+}
+.container {
+  width: 100%;
+}
+@media (min-width: 980px) {
+  .container {
+    max-width: 960px;
+  }
+}

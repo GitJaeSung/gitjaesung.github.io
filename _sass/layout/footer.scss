@@ -1,0 +1,23 @@
+/* _includes/footer.html */
+.footer-line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--footer-line);
+}
+.footer {
+  > .container {
+    margin-bottom: 1rem;
+  }
+}
+.footer-item {
+  color: var(--footer-color);
+  display: grid;
+  text-align: right;
+  font-size: 0.8rem;
+}
+.footer-link {
+  color: var(--footer-color);
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,65 @@
+# Jekyll configuration
+# Site
+url: https://gitjaesung.github.io
+title: GitJaeSung
+description: GitJaeSung Jekyll blog
+timezone: Asia/Seoul
+
+# Open Graph
+og_type: website
+
+# Google Analytics
+google_analytics: G-9R86WB3861
+
+# Jekyll plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+# Sass config
+sass:
+  style: compressed
+
+# Markdown config
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+
+# Page link
+permalink: /:title
+
+# Paginate
+paginate: 10
+paginate_path: /:num
+
+# Add folder to convert
+collections:
+  tabs:
+    output: true
+    sort_by: order
+  category:
+    output: true
+
+# Set layout and permalink according to type
+defaults:
+  -
+    scope:
+      type: posts
+    values:
+      layout: page
+      permalink: /:collection/:title
+      page_type: post
+  -
+    scope:
+      type: tabs
+    values:
+      layout: page
+      permalink: /:collection/:name
+  -
+    scope:
+      type: category
+    values:
+      layout: category
+      permalink: /:collection/:name

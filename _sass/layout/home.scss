@@ -1,0 +1,26 @@
+/* _layoyts/home.html */
+.home-card {
+  font-size: 1.2rem;
+  li {
+    margin-bottom: 0.6rem;
+  }
+  span {
+    font-size: 1.1rem;
+  }
+  p {
+    margin: 0.2rem;
+    font-size: 1rem;
+  }
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+  span {
+    margin: 0.3rem;
+  }
+  a {
+    color: var(--color-paginator);
+    margin: 0.3rem;
+  }
+}
