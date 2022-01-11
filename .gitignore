@@ -1,4 +1,13 @@
-_site/
-.sass-cache/
-.jekyll-cache/
+# gitignore configuration
+# Git
+.git
+
+# Jekyll
+_site
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
+vendor
+
+# Goorm IDE
+goorm.manifest
