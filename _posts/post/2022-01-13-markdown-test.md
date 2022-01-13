@@ -3,12 +3,10 @@ title: Markdown 테스트
 category: Post
 content: post
 author: GitJaeSung
-date: 2022-01-07
+date: 2022-01-13
 ---
 {% assign author = site.data.author-data %}
 >마크다운 테스트
-
-<br/>
 
 | 1 | zz2 | w3 | 4 | 5 |
 |:-:|:-:|:-:|:-:|:-:|
@@ -27,6 +25,10 @@ date: 2022-01-07
 ## 테스트
 ---
 ### 테스트
+
+#### __[{{ author.github_username }}]({{ author.github_link }}){:target="_blank"}__
+
+__asd__ asd
 
 `Test``테스트` 줄바꿈 테스트 줄바꿈 테스트 줄바꿈 테스트 줄바꿈 테스트 줄바꿈 테스트 줄바꿈 테스트 줄바꿈 테스트 줄바꿈 테스트
 
