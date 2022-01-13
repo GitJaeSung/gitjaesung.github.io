@@ -4,6 +4,7 @@ url: https://gitjaesung.github.io
 title: GitJaeSung
 description: GitJaeSung Jekyll blog
 timezone: Asia/Seoul
+lang: ko
 
 # Open Graph
 og_type: website

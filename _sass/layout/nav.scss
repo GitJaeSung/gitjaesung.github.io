@@ -8,9 +8,9 @@
 }
 .nav {
   color: var(--color-black);
+  display: flex;
   border-top: 1px solid var(--color-grey);
   border-bottom: 1px solid var(--color-grey);
-  display: flex;
   padding: 0.2rem;
   a {
     color: var(--color-black);
@@ -21,8 +21,10 @@
   color: var(--color-black);
   display: flex;
   justify-content: center;
-  cursor: pointer;
   font-size: 1.8rem;
+  a {
+    cursor: pointer;
+  }
 }
 .nav-collapse {
   display: none;
@@ -34,28 +36,27 @@
 .navbar {
   display: flex;
   flex-direction: column;
+  margin: 0.4rem;
   li {
     text-align: center;
   }
 }
 .navbar-link {
-  margin: 0.4rem;
   font-size: 1.4rem;
-  &:hover {
-    color: var(--color-tab-hover);
-    transition: 0.3s;
-  }
 }
-@media (min-width: 980px) {
+@media (min-width: 960px) {
   .nav-toggle {
     display: none;
   }
   .nav-collapse {
-    display: block;
+    display: flex;
   }
   .navbar {
-    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0.9rem;
+  }
+  .navbar-link {
+    margin: 0.4rem;
   }
 }
