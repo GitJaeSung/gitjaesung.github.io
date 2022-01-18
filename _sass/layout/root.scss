@@ -1,17 +1,6 @@
 /* Root */
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap"); /* Google font */
-:root {
-  --bd-font-size: 1rem;
-  --color-black: #171516;
-  --color-white: #fbf9fa;
-  --color-grey: #2a2829;
-  --color-blue: #597dcb;
-  --color-paginator: #797778;
-  --div-line: #dedcdd;
-  --footer-line: #e9e7e8;
-  --footer-color: #6c6a6b;
-} /* Color */
 * {
   box-sizing: border-box;
   &::before {
@@ -31,7 +20,7 @@ img {
   max-height: 100%;
 }
 a {
-  color: var(--color-blue);
+  color: #597dcb;
   text-decoration: none;
 }
 ul, li {

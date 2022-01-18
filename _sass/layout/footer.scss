@@ -2,7 +2,7 @@
 .footer-line {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border: 1px solid var(--footer-line);
+  border: 1px solid #e9e7e8;
 }
 .footer {
   > .container {
@@ -10,13 +10,13 @@
   }
 }
 .footer-item {
-  color: var(--footer-color);
+  color: #6c6a6b;
   display: grid;
   text-align: right;
   font-size: 0.8rem;
 }
 .footer-link {
-  color: var(--footer-color);
+  color: #6c6a6b;
   &:hover {
     text-decoration: underline;
   }
