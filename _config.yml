@@ -8,6 +8,7 @@ lang: ko
 
 # Open Graph
 og_type: website
+og_locale: ko_kr
 
 # Google Analytics
 google_analytics: G-9R86WB3861

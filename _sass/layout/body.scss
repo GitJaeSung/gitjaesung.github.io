@@ -1,13 +1,13 @@
 /* _layoyts/default.html */
 .body {
   font-family: "Noto Sans KR", sans-serif;
-  background-color: var(--color-white);
-  color: var(--color-black);
+  background-color: #fbf9fa;
+  color: #171516;
   display: flex;
   justify-content: center;
   margin: 6%;
   padding: 0;
-  font-size: var(--bd-font-size);
+  font-size: 1rem;
   overflow: auto;
   word-break: break-all;
 }
