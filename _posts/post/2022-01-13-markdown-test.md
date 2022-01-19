@@ -46,7 +46,9 @@ java
 import java;
 
 public static void main(String[] args) {
+
   System.out.println("Hello, World!");
+  
 }
 ```
 
@@ -55,8 +57,11 @@ c
 #include <stdio.h>
 
 int main() {
+
   printf("Hello, world!\n");
+  
   return 0;
+  
 }
 ```
 
