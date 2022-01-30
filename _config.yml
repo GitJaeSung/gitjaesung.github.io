@@ -7,6 +7,7 @@ timezone: Asia/Seoul
 lang: ko
 
 # Open Graph
+og_image: https://drive.google.com/uc?/export=view&id=1QP88m9GPFIGs1ldHpQNlBRBwU9ay0ukI
 og_type: website
 og_locale: ko_kr
 
