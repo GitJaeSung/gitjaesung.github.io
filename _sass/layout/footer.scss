@@ -11,13 +11,24 @@
 }
 .footer-item {
   color: #6c6a6b;
-  display: grid;
-  text-align: right;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   font-size: 0.8rem;
+  ul {
+    columns: 1;
+  }
 }
 .footer-link {
   color: #6c6a6b;
   &:hover {
     text-decoration: underline;
+  }
+}
+@media (min-width: 960px) {
+  .footer-item {
+    ul {
+      columns: 3;
+    }
   }
 }
