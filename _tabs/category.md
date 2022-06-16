@@ -1,6 +1,6 @@
 ---
 title: Category
-tab_check: ok
+page_type: tab
 oder: 1
 ---
 <ul class="category-card">
