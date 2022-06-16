@@ -1,7 +1,6 @@
 ---
 title: Contact
-tab_check: ok
-page_type: post
+page_type: tab, post
 oder: 2
 ---
 {% assign author = site.data.author-data %}

@@ -5,7 +5,7 @@ layout: default
   
   <div class="container">
     
-    {% if page.title != null and page.page_type == "post" %}
+    {% if page.title != null and page.page_type contains "post" %}
     <p class="page-header">{{ page.title }}</p>
     {% endif %}
     
