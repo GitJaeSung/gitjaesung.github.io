@@ -7,8 +7,6 @@ gem "jekyll", "~> 4.2.2"
 
 # Jekyll plugins
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.16.0"
-  gem "jekyll-sitemap", "~> 1.4"
   gem "jekyll-paginate", "~> 1.1.0"
 end
 
