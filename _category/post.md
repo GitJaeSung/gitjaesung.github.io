@@ -1,5 +1,4 @@
 ---
 title: Post
-category_check: ok
-page_type: post
+page_type: category, post
 ---

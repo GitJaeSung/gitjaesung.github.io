@@ -16,8 +16,6 @@ google_analytics: G-9R86WB3861
 
 # Jekyll plugins
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
   - jekyll-paginate
 
 # Sass config
